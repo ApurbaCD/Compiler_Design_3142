@@ -1,0 +1,3 @@
+int a = 7
+int __hi = 9
+string s = "GoodMorning"
