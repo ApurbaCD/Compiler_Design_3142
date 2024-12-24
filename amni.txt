@@ -1,2 +1,8 @@
-Am i wrong 
-u r right
+E->TG
+F->+TG
+F->@
+T->FU
+U->*FU
+U->@
+F->(E)
+f->id

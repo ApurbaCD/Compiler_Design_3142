@@ -58,7 +58,23 @@
 //     }
 // }
 
-
+// E->id
+// Take a input sentense: 
+//           stack          input         action
+//              $E     E+E*E*E+E$    Shifted by E
+//             $E+      +E*E*E+E$    Shifted by +
+//            $E+E       E*E*E+E$    Shifted by E
+//              $E        *E*E+E$    Reduced by E->E+E
+//             $E*        *E*E+E$    Shifted by *
+//            $E*E         E*E+E$    Shifted by E
+//              $E          *E+E$    Reduced by E->E*E
+//             $E*          *E+E$    Shifted by *
+//            $E*E           E+E$    Shifted by E
+//              $E            +E$    Reduced by E->E*E
+//             $E+            +E$    Shifted by +
+//            $E+E             E$    Shifted by E
+//              $E              $    Reduced by E->E+E
+// SUCCESS
 
 // // 4
 // // E->E+E
